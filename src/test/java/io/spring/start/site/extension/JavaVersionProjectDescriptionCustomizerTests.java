@@ -1,5 +1,5 @@
 /*
- * Copyright 2012-2018 the original author or authors.
+ * Copyright 2012-2019 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,12 +20,11 @@ import io.spring.initializr.generator.ProjectRequest;
 import org.junit.Test;
 
 /**
- * Tests for {@link JavaVersionRequestPostProcessor}.
+ * Tests for {@link JavaVersionProjectDescriptionCustomizer}.
  *
  * @author Stephane Nicoll
  */
-public class JavaVersionRequestPostProcessorTests
-		extends AbstractRequestPostProcessorTests {
+public class JavaVersionProjectDescriptionCustomizerTests extends AbstractExtensionTests {
 
 	@Test
 	public void java9CannotBeUsedWithSpringBoot1Maven() {
