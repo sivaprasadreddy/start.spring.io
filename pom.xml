@@ -18,9 +18,15 @@
 		<junit-jupiter.version>5.4.0</junit-jupiter.version>
 		<spring.initializr.version>0.8.0.BUILD-SNAPSHOT</spring.initializr.version>
 		<spring-javaformat.version>0.0.6</spring-javaformat.version>
+		<spring-initializr-extensions.version>0.0.1-SNAPSHOT</spring-initializr-extensions.version>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.sivalabs</groupId>
+			<artifactId>spring-initializr-extensions</artifactId>
+			<version>${spring-initializr-extensions.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
